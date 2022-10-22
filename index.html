@@ -14,60 +14,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-
-	<style>
-		@font-face {
-			font-family: 'ZoomlaCarved';
-			/*逐浪海棠居刻本字*/
-			src: url('https://code.z01.com/font/ZoomlaCarved.eot?#iefix');
-			/* IE9 */
-			src: url('https://code.z01.com/font/ZoomlaCarved.eot?#iefix') format("embedded-opentype"),
-				/* IE6-IE8 */
-				url('https://code.z01.com/font/ZoomlaCarved.woff') format("woff"),
-				/* chrome、firefox */
-				url('https://code.z01.com/font/ZoomlaCarved.ttf') format("truetype"),
-				/* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-				url('https://code.z01.com/font/ZoomlaCarved.svg#ZoomlaCarved') format("svg");
-			/* iOS 4.1- */
-			font-style: normal;
-			font-weight: normal;
-		}
-
-		@font-face {
-			font-family: 'zFont2';
-			/*逐浪时尚钢笔体*/
-			src: url('https://code.z01.com/font/zFont2.eot?#iefix');
-			/* IE9 */
-			src: url('https://code.z01.com/font/zFont2.eot?#iefix') format("embedded-opentype"),
-				/* IE6-IE8 */
-				url('https://code.z01.com/font/zFont2.woff') format("woff"),
-				/* chrome、firefox */
-				url('https://code.z01.com/font/zFont2.ttf') format("truetype"),
-				/* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-				url('https://code.z01.com/font/zFont2.svg#zFont2') format("svg");
-			/* iOS 4.1- */
-			font-style: normal;
-			font-weight: normal;
-		}
-
-		@font-face {
-			font-family: 'ZoomlaLikai-A044';
-			/*逐浪立楷*/
-			src: url('https://code.z01.com/font/ZoomlaLikai-A044.eot?#iefix');
-			/* IE9 */
-			src: url('https://code.z01.com/font/ZoomlaLikai-A044.eot?#iefix') format("embedded-opentype"),
-				/* IE6-IE8 */
-				url('https://code.z01.com/font/ZoomlaLikai-A044.woff') format("woff"),
-				/* chrome、firefox */
-				url('https://code.z01.com/font/ZoomlaLikai-A044.ttf') format("truetype"),
-				/* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-				url('https://code.z01.com/font/ZoomlaLikai-A044.svg#ZoomlaLikai-A044') format("svg");
-			/* iOS 4.1- */
-			font-style: normal;
-			font-weight: normal;
-		}
-	</style>
-
+	<link rel="stylesheet" href="assets/css/font.css" />
 </head>
 
 
@@ -77,7 +24,14 @@
 	<div id="wrapper">
 
 		<!-- Header -->
-		<header id="header">
+		<!-- <div id="header">
+			<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="./htmls/header.html" width="100%" height="auto"></iframe>
+		</div> -->
+		<!-- <header id="header"></header> -->
+		<div id="head"></div>
+		
+
+		<!-- <header id="header">
 			<h1><a href="index.html" style="font-family:ZoomlaCarved;font-weight:100; font-size:2em;">学浅工作室</a></h1>
 			<nav class="links">
 				<ul>
@@ -85,7 +39,7 @@
 					<li><a href="#">学术成果</a></li>
 					<li><a href="#">影集分享</a></li>
 					<li><a href="#">学习笔记</a></li>
-					<li><a href="#">联系我</a></li>
+					<li><a href="./htmls/aboutTheStudio.html">关于学浅</a></li>
 				</ul>
 			</nav>
 			<nav class="main">
@@ -101,7 +55,7 @@
 					</li>
 				</ul>
 			</nav>
-		</header>
+		</header> -->
 
 		<!-- Menu -->
 		<section id="menu">
@@ -159,26 +113,27 @@
 			<article class="post">
 				<header>
 					<div class="title">
-						<h2><a href="single.html">Magna sed adipiscing</a></h2>
-						<p>个人简历 ipsum dolor amet nullam consequat etiam feugiat</p>
+						<h2><a href="./htmls/aboutTheStudio.html">关于学浅工作室</a></h2>
+						<p>About Xue Qian Studio</p>
 					</div>
 					<div class="meta">
-						<time class="published" id="time">November 1, 2015</time>
-						<a href="#" class="author"><span class="name">Zevin</span><img src="images/profilePicture.jpg"
-								alt="" /></a>
+						<time class="published" id="time"></time>
+						<a href="index.html" class="author"><span class="name">Zevin</span><img
+								src="images/profilePicture.jpg" alt="" /></a>
 					</div>
 				</header>
-				<a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+				<a href="./htmls/aboutTheStudio.html" class="image featured"><img
+						src="images/aboutTheStudio/aboutTheStudio.png" alt="" /></a>
 				<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
 					placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
 					congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
 					lectus vitae, ultricies congue gravida diam non fringilla.</p>
 				<footer>
 					<ul class="actions">
-						<li><a href="single.html" class="button large">Continue Reading</a></li>
+						<li><a href="./htmls/aboutTheStudio.html" class="button large">Continue Reading</a></li>
 					</ul>
 					<ul class="stats">
-						<li><a href="#">General</a></li>
+						<!-- <li><a href="#">General</a></li> -->
 						<li><a href="#" class="icon solid fa-heart">28</a></li>
 						<li><a href="#" class="icon solid fa-comment">128</a></li>
 					</ul>
@@ -578,11 +533,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</header>
 
 				<ul class="icons">
-					<li><a href="https://github.com/chencn2020" class="icon brands fa-github"target="_blank"><span class="label">Github</span></a></li>
-					<li><a href="https://www.zhihu.com/people/yi-er-san-liu-8" class="icon brands fa-zhihu"><span class="label"target="_blank">知乎</span></a></li>
-					<li><a href="https://www.douyin.com/user/MS4wLjABAAAAWldfM5WeX9bo2-fnGmBJuusc9JrCNkWmaPwL45RXsWU" class="icon brands fa-tiktok"><span class="label"target="_blank">抖音</span></a></li>
-					<li><a href="https://scholar.google.com.hk/citations?user=ozllxV4AAAAJ&hl=zh-CN" class="icon brands fa-google"target="_blank"><span class="label">Google scholar</span></a></li>
-					<li><a href="mailto: chencn2018@163.com" class="icon solid fa-envelope"target="_blank"><span class="label">Email</span></a></li>
+					<li><a href="https://github.com/chencn2020" class="icon brands fa-github" target="_blank"><span
+								class="label">Github</span></a></li>
+					<li><a href="https://www.zhihu.com/people/yi-er-san-liu-8" class="icon brands fa-zhihu"><span
+								class="label" target="_blank">知乎</span></a></li>
+					<li><a href="https://www.douyin.com/user/MS4wLjABAAAAWldfM5WeX9bo2-fnGmBJuusc9JrCNkWmaPwL45RXsWU"
+							class="icon brands fa-tiktok"><span class="label" target="_blank">抖音</span></a></li>
+					<li><a href="https://scholar.google.com.hk/citations?user=ozllxV4AAAAJ&hl=zh-CN"
+							class="icon brands fa-google" target="_blank"><span class="label">Google scholar</span></a>
+					</li>
+					<li><a href="mailto: chencn2018@163.com" class="icon solid fa-envelope" target="_blank"><span
+								class="label">Email</span></a></li>
 				</ul>
 			</section>
 
@@ -711,20 +672,25 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script>
+	<!-- <script type="text/javascript" src="./assets/js/loader.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
+	
+	<script>
+		// $("#header").load("./htmls/header.html");
+		// $("#div").load("index.html");
 		setInterval(time, 1000) //定时器
 
 		function time() { //定义方法 time
-			let mons = ['一','二','三','四','五','六','七','八','九','十','十一','十二']
-			let days = ['一','二','三','四','五','六','七','八','九','十','十一','十二','十三','十四','十五','十六','十七','十八','十九','二十','二十一','二十二','二十三','二十四','二十五','二十六','二十七','二十八','二十九','三十','三十一']
+			let mons = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二']
+			let days = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二', '十三', '十四', '十五', '十六', '十七', '十八', '十九', '二十', '二十一', '二十二', '二十三', '二十四', '二十五', '二十六', '二十七', '二十八', '二十九', '三十', '三十一']
 			let time = new Date();  //实例化日期对象
 
 			let year = time.getFullYear() + "年" //获取年
 
 			let month = time.getMonth() + "月" //获取月
 
-			let day = time.getDate()+ "日"      //获取日
+			let day = time.getDate() + "日"      //获取日
 			let h = time.getHours() + ':'        //获取时
 			let m = time.getMinutes() + ":"      //获取分
 			let s = time.getSeconds()          //获取秒
@@ -738,10 +704,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				m = "0" + time.getMinutes() + ":"  //小于是 在其前加0 01，02，03...
 
 			}
-			document.getElementById('time').innerHTML = year + month + day + h + m + s  //显示当前时间
+			document.getElementById('time').innerHTML = year + month + day + "<br />" + h + m + s  //显示当前时间
 		}
 
+		$(function() {
+			$('#head').load('./htmls/header.html')
+		});
+
+			
+
 	</script>
+
+
 </body>
 
 </html>

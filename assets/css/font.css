@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'ZoomlaCarved';
     /*逐浪海棠居刻本字*/
-    src: url('https://code.z01.com/font/ZoomlaCarved.eot?#iefix');
+    src: url('/fonts/ZoomlaCarved.eot');
     /* IE9 */
-    src: url('https://code.z01.com/font/ZoomlaCarved.eot?#iefix') format("embedded-opentype"),
+    src: url('/fonts/ZoomlaCarved.eot') format("embedded-opentype"),
         /* IE6-IE8 */
-        url('https://code.z01.com/font/ZoomlaCarved.woff') format("woff"),
+        url('/fonts/ZoomlaCarved.woff') format("woff"),
         /* chrome、firefox */
-        url('https://code.z01.com/font/ZoomlaCarved.ttf') format("truetype"),
+        url('/fonts/ZoomlaCarved.ttf') format("truetype"),
         /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
         url('https://code.z01.com/font/ZoomlaCarved.svg#ZoomlaCarved') format("svg");
     /* iOS 4.1- */
@@ -18,13 +18,13 @@
 @font-face {
     font-family: 'zFont2';
     /*逐浪时尚钢笔体*/
-    src: url('https://code.z01.com/font/zFont2.eot?#iefix');
+    src: url('/fonts/zFont2.eot');
     /* IE9 */
-    src: url('https://code.z01.com/font/zFont2.eot?#iefix') format("embedded-opentype"),
+    src: url('/fonts/zFont2.eot') format("embedded-opentype"),
         /* IE6-IE8 */
-        url('https://code.z01.com/font/zFont2.woff') format("woff"),
+        url('/fonts/zFont2.woff') format("woff"),
         /* chrome、firefox */
-        url('https://code.z01.com/font/zFont2.ttf') format("truetype"),
+        url('/fonts/zFont2.ttf') format("truetype"),
         /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
         url('https://code.z01.com/font/zFont2.svg#zFont2') format("svg");
     /* iOS 4.1- */
@@ -35,15 +35,15 @@
 @font-face {
     font-family: 'ZoomlaLikai-A044';
     /*逐浪立楷*/
-    src: url('https://code.z01.com/font/ZoomlaLikai-A044.eot?#iefix');
+    src: url('/fonts/ZoomlaLikai-A044.eot?#iefix');
     /* IE9 */
-    src: url('https://code.z01.com/font/ZoomlaLikai-A044.eot?#iefix') format("embedded-opentype"),
+    src: url('/fonts/ZoomlaLikai-A044.eot?#iefix') format("embedded-opentype"),
         /* IE6-IE8 */
-        url('https://code.z01.com/font/ZoomlaLikai-A044.woff') format("woff"),
+        url('/fonts/ZoomlaLikai-A044.woff') format("woff"),
         /* chrome、firefox */
-        url('https://code.z01.com/font/ZoomlaLikai-A044.ttf') format("truetype"),
+        url('/fonts/ZoomlaLikai-A044.ttf') format("truetype"),
         /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-        url('https://code.z01.com/font/ZoomlaLikai-A044.svg#ZoomlaLikai-A044') format("svg");
+        url('/fonts/ZoomlaLikai-A044.svg#ZoomlaLikai-A044') format("svg");
     /* iOS 4.1- */
     font-style: normal;
     font-weight: normal;
@@ -51,7 +51,7 @@
 
 @font-face {
     font-family: 'xingkai';
-    src: url('../../fonts/STXINGKA.TTF');
+    src: url('/fonts/STXINGKA.TTF');
 
     /* iOS 4.1- */
     font-style: normal;
@@ -61,7 +61,7 @@
 
 @font-face {
     font-family: 'ARLRDBD';
-    src: url('../../fonts/ARLRDBD.TTF');
+    src: url('/fonts/ARLRDBD.TTF');
 
     /* iOS 4.1- */
     font-style: normal;
@@ -69,7 +69,7 @@
 }
 @font-face {
     font-family: 'kaiti';
-    src: url('../../fonts/HGKT_CNKI.TTF');
+    src: url('/fonts/HGKT_CNKI.TTF');
 
     /* iOS 4.1- */
     font-style: normal;

@@ -14,13 +14,13 @@
 	<link rel="stylesheet" href="../assets/css/font.css" />
 </head>
 
-<body class="single is-preload">
+<body class="is-preload">
 
 	<!-- Wrapper -->
 	<div id="wrapper">
 
-		<!-- Header -->
 		<div id="head"></div>
+		<section id="menu"></section>
 
 		<!-- Main -->
 		<div id="main">
@@ -115,7 +115,8 @@
 		}
 
 		$(function () {
-			$('#head').load('./header.html')
+			$('#head').load('/htmls/fixer/header.html')
+			$('#menu').load('/htmls/fixer/menu.html')
 		});
 
 	</script>

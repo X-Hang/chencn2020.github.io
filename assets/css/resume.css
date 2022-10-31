@@ -2910,11 +2910,12 @@ ul.posts article header> :last-child {
 }
 
 .data_detail>header .edu_detail .edu_time {
-	font-size: 1vw;
+	font-size: 0.85rem;
 }
 
 .data_detail>header .edu_detail span {
-	font-size: 2vw;
+	font-size: 1.8rem;
+	max-height: 1.5em;
 }
 
 .data_detail>header .edu_detail .school_name img {
@@ -2936,8 +2937,8 @@ ul.posts article header> :last-child {
 
 .data_detail>header .edu_detail .edu_info {
 	font-family: 'kaiti';
-	margin-right: auto;
-	margin-left: 1em;
+	margin: auto;
+	/* margin-left: 1em; */
 }
 
 .data_detail>header .edu_detail .edu_info .main_class {
@@ -3035,7 +3036,7 @@ ul.posts article header> :last-child {
 }
 
 .post>header .info {
-	padding: 3em 3em 1.75em 3em;
+	/* padding: 3em 3em 1.75em 3em; */
 	min-width: 65%;
 	text-align: center;
 	margin: auto;
@@ -3055,7 +3056,7 @@ td,
 tr {
 	border: 0px solid green;
 	background-color: white;
-	font-size: 1vw;
+	font-size: 1.25rem;
 }
 
 .post>table,
@@ -3313,7 +3314,7 @@ header p {
 }
 
 table {
-	margin: 0 0 2em 0;
+	margin: 1em 0 1em 0;
 	width: 100%;
 }
 

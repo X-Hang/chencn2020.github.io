@@ -2909,6 +2909,14 @@ ul.posts article header> :last-child {
 	justify-content: center;
 }
 
+.data_detail>header .edu_detail .edu_time {
+	font-size: 1vw;
+}
+
+.data_detail>header .edu_detail span {
+	font-size: 2vw;
+}
+
 .data_detail>header .edu_detail .school_name img {
 	width: auto;
 	height: auto;
@@ -3003,7 +3011,7 @@ ul.posts article header> :last-child {
 	border-left: solid 1px rgba(160, 160, 160, 0.3);
 	min-width: 20em;
 	text-align: center;
-	width: 20em;
+	width: 15%;
 }
 
 .post>header .meta>* {
@@ -3047,7 +3055,7 @@ td,
 tr {
 	border: 0px solid green;
 	background-color: white;
-	font-size: large;
+	font-size: 1vw;
 }
 
 .post>table,
@@ -3166,9 +3174,9 @@ tr .boldInfo {
 		border-left: 0;
 		margin: 0 0 2em 0;
 		padding-top: 0;
-		padding: 0;
+		/* padding: 0; */
 		text-align: left;
-		width: 100%;
+		width: 50%;
 	}
 
 	.post>header .meta>* {
@@ -3239,6 +3247,7 @@ tr .boldInfo {
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
+		width: 20%;
 	}
 
 	.post>header .meta>* {
